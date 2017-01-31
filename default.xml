@@ -31,11 +31,13 @@
 	<project name="project/mdnsd"                  remote="lede"         path="project/mdnsd"         />
 	<project name="project/mountd"                 remote="lede"         path="project/mountd"        />
 	<project name="project/netifd"                 remote="lede"         path="project/netifd"        />
+	<project name="project/odhcp6c"                remote="lede"         path="project/odhcp6c"       />
 	<project name="project/odhcpd"                 remote="lede"         path="project/odhcpd"        />
 	<project name="project/procd"                  remote="lede"         path="project/procd"         />
 	<project name="project/relayd"                 remote="lede"         path="project/relayd"        />
 	<project name="project/rpcd"                   remote="lede"         path="project/rpcd"          />
 	<project name="project/ubox"                   remote="lede"         path="project/ubox"          />
+	<project name="project/ubus"                   remote="lede"         path="project/ubus"          />
 	<project name="project/uci"                    remote="lede"         path="project/uci"           />
 	<project name="project/uclient"                remote="lede"         path="project/uclient"       />
 	<project name="project/ugps"                   remote="lede"         path="project/ugps"          />

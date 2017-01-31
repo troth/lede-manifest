@@ -49,6 +49,8 @@ Projects on above site:
 +------------------------------------------------------+------------------------------------+
 | git://git.lede-project.org/project/netifd.git        | OpenWrt Network interface...       |
 +------------------------------------------------------+------------------------------------+
+| git://git.lede-project.org/project/odhcp6c.git       | OpenWrt DHCPv6 Client              |
++------------------------------------------------------+------------------------------------+
 | git://git.lede-project.org/project/odhcpd.git        | OpenWrt DHCP Server                |
 +------------------------------------------------------+------------------------------------+
 | git://git.lede-project.org/project/procd.git         | OpenWrt service / process...       |

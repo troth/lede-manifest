@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+	<remote
+		name="lede"
+        alias="origin"
+		fetch="git://git.lede-project.org"
+		revision="master"
+	/>
+
+	<remote
+		name="troth"
+		alias="origin"
+		fetch="git://github.com/troth"
+		revision="master"
+	/>
+
+    <project name="lede-manifest"                  remote="troth"        path="lede-manifest" />
+    <project name="source"                         remote="lede"         path="source" />
+	<project name="feed/packages"                  remote="lede"         path="packages" />
+
+	<project name="project/firewall3"              remote="lede"         path="project/firewall3"     />
+	<project name="project/fstools"                remote="lede"         path="project/fstools"       />
+	<project name="project/iwinfo"                 remote="lede"         path="project/iwinfo"        />
+	<project name="project/jsonpath"               remote="lede"         path="project/jsonpath"      />
+	<project name="project/librpc-uclibc"          remote="lede"         path="project/librpc-uclibc" />
+	<project name="project/libubox"                remote="lede"         path="project/libubox"       />
+	<project name="project/luci"                   remote="lede"         path="project/luci"          />
+	<project name="project/luci2/ui"               remote="lede"         path="project/luci2/ui"      />
+	<project name="project/make_ext4fs"            remote="lede"         path="project/make_ext4fs"   />
+	<project name="project/msnsd"                  remote="lede"         path="project/msnsd"         />
+	<project name="project/mountd"                 remote="lede"         path="project/mountd"        />
+	<project name="project/netifd"                 remote="lede"         path="project/netifd"        />
+	<project name="project/odhcpd"                 remote="lede"         path="project/odhcpd"        />
+	<project name="project/procd"                  remote="lede"         path="project/procd"         />
+	<project name="project/relayd"                 remote="lede"         path="project/relayd"        />
+	<project name="project/rpcd"                   remote="lede"         path="project/rpcd"          />
+	<project name="project/ubox"                   remote="lede"         path="project/ubox"          />
+	<project name="project/uci"                    remote="lede"         path="project/uci"           />
+	<project name="project/uclient"                remote="lede"         path="project/uclient"       />
+	<project name="project/ugps"                   remote="lede"         path="project/ugps"          />
+	<project name="project/uhttpd"                 remote="lede"         path="project/uhttpd"        />
+	<project name="project/umbim"                  remote="lede"         path="project/umbim"         />
+	<project name="project/uqmi"                   remote="lede"         path="project/uqmi"          />
+	<project name="project/usbmode"                remote="lede"         path="project/usbmode"       />
+	<project name="project/usign"                  remote="lede"         path="project/usign"         />
+	<project name="project/ustream-ssl"            remote="lede"         path="project/ustream-ssl"   />
+	<project name="project/wwan"                   remote="lede"         path="project/wwan"          />
+</manifest>

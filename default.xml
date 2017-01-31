@@ -45,5 +45,4 @@
 	<project name="project/usbmode"                remote="lede"         path="project/usbmode"       />
 	<project name="project/usign"                  remote="lede"         path="project/usign"         />
 	<project name="project/ustream-ssl"            remote="lede"         path="project/ustream-ssl"   />
-	<project name="project/wwan"                   remote="lede"         path="project/wwan"          />
 </manifest>

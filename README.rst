@@ -12,13 +12,6 @@ Docs:
 
 * https://lede-project.org/docs/guide-developer/the-source-code
 
-From the above (for releases??)::
-
-    git clone https://git.lede-project.org/openwrt/source.git
-    git clone https://git.lede-project.org/openwrt/packages.git
-    git clone https://git.lede-project.org/openwrt/feeds.git
-    git clone https://git.lede-project.org/openwrt/docs.git
-
 Git repos:
 
 * https://git.lede-project.org/

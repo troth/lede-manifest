@@ -88,3 +88,65 @@ Projects on above site:
 +------------------------------------------------------+------------------------------------+
 | git://git.lede-project.org/project/wwan.git          | OpenWrt 3G/4G connection tool      |
 +------------------------------------------------------+------------------------------------+
+
+Getting Started
+===============
+
+1.  Install Google Repo.
+
+    Download the Repo script and make it executable::
+
+        $ cd ${HOME}/bin
+        $ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > repo
+        $ chmod 755 repo
+
+    Make sure the `${HOME}/bin` is in your `${PATH}` environment variable.
+
+2.  Initialize a Repo client.
+
+    Create an empty directory to hold your working projects::
+
+        $ cd ${HOME}/${WORK_DIR}
+        $ mkdir -p lede-projects
+        $ cd lede-projects
+
+    **NOTE**: Use whatever you want for `${WORK_DIR}` and/or `econe-yocto`, just
+    adjust what follows accordingly.
+
+    Tell Repo where to find the manifest (readonly access to github git repository)::
+
+        $ repo init -u https://github.com/troth/lede-manifest.git
+
+    or if you have READ/WRITE access to the manifest repository via ssh::
+
+        $ repo init -u ssh://git@github.com/troth/lede-manifest.git
+
+    A successful initialization will end with a message stating that Repo is
+    initialized in your working directory. Your client directory should now
+    contain a `.repo` directory where files such as the manifest will be kept.
+
+3.  Fetch all the repositories.
+
+    ::
+
+        $repo sync
+
+    This will result in some directoires being created and populated with git
+    repositories::
+
+        lede-manifest/
+        source/
+        feed/
+
+    You should now have most of the useful git repositories for LEDE.
+
+Staying Up to Date
+==================
+
+To pick up the latest changes for all source repositories, run::
+
+    $ repo sync
+
+To get back to the original detached state, run::
+
+    $ repo sync -d

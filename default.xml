@@ -28,7 +28,7 @@
 	<project name="project/luci"                   remote="lede"         path="project/luci"          />
 	<project name="project/luci2/ui"               remote="lede"         path="project/luci2/ui"      />
 	<project name="project/make_ext4fs"            remote="lede"         path="project/make_ext4fs"   />
-	<project name="project/msnsd"                  remote="lede"         path="project/msnsd"         />
+	<project name="project/mdnsd"                  remote="lede"         path="project/mdnsd"         />
 	<project name="project/mountd"                 remote="lede"         path="project/mountd"        />
 	<project name="project/netifd"                 remote="lede"         path="project/netifd"        />
 	<project name="project/odhcpd"                 remote="lede"         path="project/odhcpd"        />

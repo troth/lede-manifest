@@ -72,7 +72,7 @@
 	<project name="openwrt"                        remote="openwrt"             path="openwrt/openwrt" />
 	<project name="packages"                       remote="openwrt"             path="openwrt/packages" />
 	<project name="luci"                           remote="openwrt"             path="openwrt/luci" />
-	<project name="target"                         remote="openwrt"             path="openwrt/target" />
+	<project name="targets"                        remote="openwrt"             path="openwrt/targets" />
 	<project name="telephony"                      remote="openwrt"             path="openwrt/telephony" />
 	<project name="packages"                       remote="openwrt-routing"     path="openwrt/routing" />
 	<project name="packages"                       remote="openwrt-management"  path="openwrt/management" />

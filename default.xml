@@ -9,6 +9,27 @@
 	/>
 
 	<remote
+		name="openwrt"
+        alias="origin"
+		fetch="git://github.com/openwrt"
+		revision="master"
+	/>
+
+	<remote
+		name="openwrt-routing"
+        alias="origin"
+		fetch="git://github.com/openwrt-routing"
+		revision="master"
+	/>
+
+	<remote
+		name="openwrt-management"
+        alias="origin"
+		fetch="git://github.com/openwrt-management"
+		revision="master"
+	/>
+
+	<remote
 		name="troth"
 		alias="origin"
 		fetch="git://github.com/troth"
@@ -47,4 +68,12 @@
 	<project name="project/usbmode"                remote="lede"         path="project/usbmode"       />
 	<project name="project/usign"                  remote="lede"         path="project/usign"         />
 	<project name="project/ustream-ssl"            remote="lede"         path="project/ustream-ssl"   />
+
+	<project name="openwrt"                        remote="openwrt"             path="openwrt/openwrt" />
+	<project name="packages"                       remote="openwrt"             path="openwrt/packages" />
+	<project name="luci"                           remote="openwrt"             path="openwrt/luci" />
+	<project name="target"                         remote="openwrt"             path="openwrt/target" />
+	<project name="telephony"                      remote="openwrt"             path="openwrt/telephony" />
+	<project name="packages"                       remote="openwrt-routing"     path="openwrt/routing" />
+	<project name="packages"                       remote="openwrt-management"  path="openwrt/management" />
 </manifest>
